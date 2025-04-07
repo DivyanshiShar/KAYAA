@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.main{
+background-image: url("https://i.pinimg.com/736x/96/89/f3/9689f305ef23e0771d0d3c71aa7f8921.jpg");
+background-size: cover;
+}
+.navbar {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f4b000;
+    margin-left: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #f4b000; /* Highlighted color */
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cart-icon {
+    height: 30px;
+    margin-right: 5px;
+}
+
+
+.hero {
+    background: url('https://i.pinimg.com/736x/96/89/f3/9689f305ef23e0771d0d3c71aa7f8921.jpg') no-repeat center center/cover; 
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-banner {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.blog-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blog-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.blog-image {
+    flex: 1;
+}
+
+.blog-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+</style>
+
+
+<body>
+  <div class="main">
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">KAYAA</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="cart-item">
+                        <a href="/cart">
+                            <img src="https://static.vecteezy.com/system/resources/previews/015/166/113/non_2x/cart-neon-icon-png.png" alt="Cart" class="cart-icon">
+                           
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Ideas to Design Your Home with the Perfect Furniture</h1>
+                <p>Designing your home is an exciting journey that reflects your personality and style. The right furniture 
+                  can transform any space into a cozy, functional, and visually appealing haven. Here are some creative 
+                  ideas and tips to help you design your home with the perfect furniture:</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+  <section class="blog-banner">
+    <div class="blog-container">
+        <div class="blog-text">
+            <h2>Understand Your Space</h2>
+            <p>
+              Measure & Plan: Start by measuring the dimensions of each room. This helps you avoid buying furniture 
+              that's too big or too small for the space.
+              Functionality First: Think about how you'll use the room. 
+              For example:
+              A living room needs comfortable seating and a central coffee table.
+              A bedroom should prioritize a cozy bed, bedside tables, and storage.
+              Traffic Flow: Ensure there's enough space to move freely around furniture.
+
+            </p>
+        </div>
+        <div class="blog-image">
+            <img src="https://i.pinimg.com/736x/37/64/1d/37641d42468d188bda63136a4b6ab307.jpg" alt="Sale Banner">
+        </div>
+    </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Choose a Style</h2>
+          <p>
+            Contemporary: Sleek, minimal designs with neutral tones.
+Rustic: Wooden, distressed finishes for a warm, countryside feel.
+Bohemian: A mix of patterns, textures, and colors for a vibrant, eclectic look.
+Scandinavian: Clean lines, functional furniture, and a focus on natural light.
+Choose a consistent style to maintain harmony across the house.
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/b9/cc/23/b9cc23716ff700250403aec5c7e7b0b0.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Mix and Match</h2>
+          <p>
+            Combine vintage and modern pieces to create a dynamic look.
+            Use contrasting materials like metal and wood for visual interest.
+            Experiment with bold accent furniture (like a statement chair) to make the space pop.
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/e2/0c/6f/e20c6f1c32c698e7b865870fd28a6fdb.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Invest in Multifunctional Furniture</h2>
+          <p>
+            Sofa Beds: Perfect for living rooms or guest rooms.
+Storage Ottomans: Act as both seating and storage for blankets or magazines.
+Extendable Tables: Ideal for dining areas with limited space.
+Wall-Mounted Desks: Great for compact home offices.
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/44/87/5d/44875d61ccfb20fdf856a8d3812680d7.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Play with Colors and Textures</h2>
+          <p>
+            Use furniture with complementary colors to match your walls and decor.
+Add textures like velvet sofas, woven rugs, or leather chairs for depth.
+Incorporate natural materials like rattan, wicker, or wood for a cozy ambiance.
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/49/89/62/4989624527e42c8634bda14224fbb06a.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Focus on Lighting</h2>
+          <p>
+            Pair furniture with appropriate lighting to enhance the space.
+            Use floor lamps near reading chairs or sofas for a functional touch.
+            Opt for warm lighting in living and bedrooms for a relaxed vibe.
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/8a/87/46/8a8746bb37bc5c4f4cce2802d9a085c3.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Accessorize Thoughfully</h2>
+          <p>
+            Layer furniture with cushions and throws for a welcoming look.
+Use bookshelves, sideboards, and cabinets to display decor or organize items.
+Add greenery with potted plants or vertical gardens for freshness.
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/3f/30/64/3f30645d963e415c077ce7f2d4f73a0b.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Customize as Needed</h2>
+          <p>
+            If mass-market furniture doesn’t fit, consider custom-built pieces.
+Modular furniture allows flexibility and adaptation over time.
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/64/59/95/645995045e27261eea8d1dc05e42aab9.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Keep it Clutter-Free</h2>
+          <p>
+            Use furniture with built-in storage to hide unnecessary items.
+Stick to essential pieces to maintain a clean and open aesthetic.
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/3a/70/ce/3a70cee4c917e0a15508161158e69261.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+
+<section class="blog-banner">
+  <div class="blog-container">
+      <div class="blog-text">
+          <h2>Final Thoughts</h2>
+          <p>
+            Designing your house with the right furniture is all about 
+blending aesthetics with functionality. By understanding 
+your space, choosing a style, and adding thoughtful details
+, you can create a home that's uniquely yours. Start small,
+ mix and match, and most importantly, have fun with the
+ process!
+          </p>
+      </div>
+      <div class="blog-image">
+          <img src="https://i.pinimg.com/736x/92/c8/0a/92c80ab79488bb13e0a1ec1353bb2346.jpg" alt="Sale Banner">
+      </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <p>&copy; 2024 KAYAA Blog | Home Decor Ideas for Every Room</p>
+  </div>
+</footer>
+
+</body>
+<script>
+    document.getElementById('cart-icon').addEventListener('click', () => {
+    window.location.href = '/cart';
+});
+</script>
+</html>

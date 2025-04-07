@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.main{
+background-image: url("https://i.pinimg.com/736x/8f/99/55/8f99555fd9c8b70469ee30787ad8e5b9.jpg");
+background-size: cover;
+}
+.navbar {
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f4b000;
+    margin-left: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #f4b000; /* Highlighted color */
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cart-icon {
+    height: 30px;
+    margin-right: 5px;
+}
+
+
+.hero {
+    background: url('https://i.pinimg.com/736x/8f/99/55/8f99555fd9c8b70469ee30787ad8e5b9.jpg') no-repeat center center/cover; 
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: white;
+    color: black;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.btn-outline {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+
+.featured-products {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.product-item img {
+    width: 450px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    margin: 0.5rem 0;
+}
+
+.categories {
+    text-align: center;
+    padding: 20px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 0; /* Remove the gap between the images */
+    margin-top: 20px;
+}
+
+.category-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.category-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease; /* Smooth transform on hover */
+}
+
+.category-item h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin: 0;
+    transition: opacity 0.3s ease;
+    opacity: 0; 
+}
+
+.category-item:hover img {
+    transform: scale(1.1);
+    opacity:0.5;
+}
+
+.category-item:hover h3 {
+    opacity: 1; 
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.sale-banner {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sale-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sale-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.sale-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sale-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.btn-sale {
+    background-color: #ffc107;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-sale:hover {
+    background-color: #e0a806;
+}
+
+.sale-image {
+    flex: 1;
+}
+
+.sale-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+

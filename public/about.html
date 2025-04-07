@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f4b000;
+    margin-left: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #000; /* Black links */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #f4b000; /* Highlighted color */
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cart-icon {
+    height: 30px;
+    max-width: 30px;
+    margin-right: 5px;
+}
+
+
+h1, h2, h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        #head{
+            text-align: center;
+        }
+
+        #line {
+            text-align: center;
+            margin: 20px auto; 
+            max-width: 80%; 
+            color: #333; 
+        }
+
+        img{
+            width: 500px;
+            height: 450px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer .footer-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        footer .footer-container div {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        footer h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #f4b000;
+        }
+
+        footer p, footer ul {
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin-bottom: 10px;
+        }
+
+        footer ul li a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer ul li a:hover {
+            color: #f4b000;
+        }
+
+        footer .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+
+</style>
+
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">KAYAA</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="cart-item">
+                        <a href="/cart">
+                            <img src="https://static.vecteezy.com/system/resources/previews/015/166/113/non_2x/cart-neon-icon-png.png" alt="Cart" class="cart-icon">
+                           
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h1 id="head">About Us</h1>
+    <p id="line">At KAYAA, we believe that your home is more than just
+         a place—it’s a sanctuary, a reflection of your 
+         personality, and a canvas for creativity. Our 
+         blog is dedicated to helping you transform your
+          living space into a haven of style, comfort, and 
+          functionality.</p>
+
+          <h2>What We Offer</h2>
+          <p>
+           <b> Inspirational Ideas: </b>Discover the latest trends,
+             unique design concepts, and practical decor 
+             advice to elevate your space.<br>
+            <b>Product Recommendations:</b> Find curated suggestions
+             for furniture, decor pieces, and accessories to 
+             bring your vision to life.
+          </p>
+          <h2>The Best Quality Furniture Store in Town</h2>
+          <p>
+            Welcome to your one-stop destination for 
+            premium furniture! We pride ourselves on 
+            offering unmatched quality, timeless designs, 
+            and exceptional service to help you create the
+             home of your dreams. From cozy living rooms to
+              functional workspaces, we have everything you
+               need to transform your space into something 
+               extraordinary.
+          </p>
+          <h3>Huge Selection</h3>
+          <p>
+            Discover a wide variety of furniture styles and collections, carefully curated to suit every taste and budget. Whether you love modern minimalism or classic elegance, our extensive range has something for everyone.
+          </p>
+          <h3>Low Prices Every Dat</h3>
+          <p>
+            Enjoy exceptional value with competitive pricing on all our products. We believe quality furniture should be affordable, so you’ll always find the best deals here—without compromising on style or durability.
+          </p>
+          <h3>Same-Day Delivery</h3>
+          <p>
+            Your dream furniture is just a click away! With our efficient same-day delivery service, you won’t have to wait to enjoy your new furniture. Convenience and speed—delivered right to your doorstep.
+          </p>
+          <img src="https://i.pinimg.com/736x/19/87/cd/1987cd74a93f389eaeac509192bfcdfb.jpg" alt="interior"/>
+          <img src="https://i.pinimg.com/736x/6b/e4/4d/6be44d7e4ff742e57bf2049a3a3189ed.jpg" alt="interior2"/>
+          <footer>
+<div class="footer-bottom">
+            &copy; 2024 KAYAA Furniture. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+<script>
+    document.getElementById('cart-icon').addEventListener('click', () => {
+    window.location.href = '/cart';
+});
+</script>
+</html>
